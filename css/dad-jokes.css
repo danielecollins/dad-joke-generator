@@ -1,26 +1,18 @@
 .dad-bg {
-    margin: 0 auto;
-    background-image: url('../resource-1.jpg');
-    background-repeat: no-repeat;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-image: url('../resource-1.jpg');
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 700px;
 
-    min-height: 100%;
-    min-width: 1024px;
-
-    width: 100%;
-    height: auto;
-
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-@media screen and (max-width: 1024px) {
-    .dad-bg {
-        left: 50%;
-        margin-left: -512px;
-    }
+	text-align: center;
 }
 
 #dad-joke {
-    font-family: 'Coming Soon', sans-serif;
+	font-family: 'Coming Soon', sans-serif;
+	font-size: xx-large;
+	width: 400px;
+	padding-top: 200px;
+	padding-left: 50px;
 }
